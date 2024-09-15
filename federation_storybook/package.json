@@ -1,0 +1,31 @@
+{
+  "name": "rsbuild-react-ts",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "build:storybook": "storybook build",
+    "dev": "rsbuild dev --open",
+    "preview": "rsbuild preview",
+    "storybook": "storybook dev -p 6006"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "^0.6.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.2",
+    "@rsbuild/plugin-react": "^1.0.1",
+    "@storybook/addon-essentials": "^8.3.0",
+    "@storybook/blocks": "^8.3.0",
+    "@storybook/react": "^8.3.0",
+    "@storybook/test": "^8.3.0",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "rspack-plugin-virtual-module": "^0.1.13",
+    "storybook": "^8.3.0",
+    "storybook-react-rsbuild": "^0.1.0",
+    "typescript": "^5.5.2"
+  }
+}
